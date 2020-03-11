@@ -1,0 +1,139 @@
+.coins{
+    font-family: "Roboto", sans-serif;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px auto;
+    flex-direction: row;
+    padding: 1px;
+   
+    min-width: 45%;
+}
+.linkoln{
+    display: flex;
+    flex-direction: row;
+    padding: 0%;
+    margin: 0%;    
+    height: 109px;
+    
+}
+.pic{
+    width:126px; 
+    margin-top: 0%;
+
+}
+img{
+    width:126px; 
+    margin-top: 0%;
+
+}
+.info{
+    
+    font-size: 9px;
+    padding: 0%;
+    margin-top: 5%;
+    width: 174px;
+}
+
+.header{
+    
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 0%;
+    font-size: 28px;
+    
+}
+
+.price{
+    margin-top: 45%;
+    margin-bottom: 1px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.exprice{
+    margin-top: 0%;
+    font-size: 9.5px;
+    color: silver;
+}
+
+
+.coinname{
+    color: blueviolet;
+}
+.sale{
+   background-color: blueviolet;
+   color: white; 
+   border-radius: 100%;
+   height: 30px;
+   width: 30px;
+   line-height: 30px;
+   font-size: 11px;
+   position: relative;
+   top: -105%;
+   left: 55%;
+   text-align: center;
+}
+.linkoln2{
+display: flex;
+flex-direction: column;
+width: 50%;
+
+}
+.coins2{
+    display: flex;
+    flex-direction: row;
+    max-width: 920px;
+    min-width: 600px;
+    justify-content: center;
+
+    margin: 0 auto;
+
+}
+.coin2photo{
+    max-width: 460px;
+    width: 100%;
+    object-fit: contain;
+    margin-top: -7%;
+    margin-bottom: -7%;
+    
+
+}
+.fulldescription{
+    background-color: silver;
+    width: 460px;
+    padding: 45px;
+    overflow: visible;
+    font-family: Roboto, sans-serif;
+height: 620px;
+}
+
+.descriptiontable{
+    margin-bottom: 80px;   
+    
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+}
+.price2{
+    color: gray;
+    font-size: 12px;
+}
+.pricevalue{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+.artikul{
+    color: gray;
+    font-size: 12px; 
+}
+
+tr:nth-child(odd){
+    background-color: white;
+}
+td:first-child{
+    border-right: 1px solid gray;
+
+}
+table{
+    border-collapse: collapse ;
+}
